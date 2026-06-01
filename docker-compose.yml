@@ -1,0 +1,16 @@
+services:
+
+  frontend:
+    image: student-frontend
+    ports:
+      - "3001:80"
+
+  backend:
+    image: student-backend
+    ports:
+      - "5001:5001"
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27019:27017"
