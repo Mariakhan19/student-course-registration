@@ -83,3 +83,5 @@ README.md
 ## Author
 
 Cloud Migration Semester Project
+
+CI/CD pipeline verified successfully.
