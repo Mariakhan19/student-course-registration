@@ -3,10 +3,12 @@ pipeline {
 
     stages {
 
-        stage('GitHub Clone') {
-            steps {
-                git 'https://github.com/Mariakhan19/student-course-registration.git'
-            }
+  stage('GitHub Clone') {
+    steps {
+        git branch: 'main',
+            url: 'https://github.com/Mariakhan19/student-course-registration.git'
+    }
+}
         }
 
         stage('Build Backend Image') {
